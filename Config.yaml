@@ -1,0 +1,21 @@
+logs: 2   #To be ignored
+evaluations: 10000
+#------------------------------------------
+problem_instance_pathname: 'problems/d1.lup'
+solution_file_pathname: 'solutions/test'
+log_file_pathname: 'logs/test'
+random_seed: 5
+black_constraint: False
+mu: 100
+lambda: 50
+penalty: 0.1
+mutation_probability: 0.5
+parent_selection: Fitness_Proportional_Selection #Uniform_random, Fitness_Proportional_Selection
+stochastic_parent: True #True for uniform stochastic, false for k_Tournament
+runs: 1
+#mating_pool_size: 20
+#parent_selection: 'Uniform' #or 'k_T' for k_Tournament
+parent_tournament: 25
+survival_tournament: 20
+generations: 200
+semi_black_constraint: True  #Please ignore this
